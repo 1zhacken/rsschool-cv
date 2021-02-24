@@ -1,0 +1,61 @@
+body {
+    font-family: 'Signika', sans-serif;
+    font-size:18px;
+    padding: 0 2.5% 2.5% 2.5%;
+    color: #222222;
+}
+
+div {
+    margin-top: 1%;
+}
+
+table {
+    width: 100%;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.mark {
+    text-align: right;
+}
+
+#name {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+#specialization {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#contact {
+    margin-right: 5%;
+    flex: 1 0 25%;
+}
+
+#work-history {
+    margin-top: 0.55%;
+    flex: 2 0 70%;
+}
+
+#skills {
+    margin-right: 5%;
+    flex: 1 1 25%;
+}
+
+#education {
+    margin-top: 0.55%;
+    flex: 2 0 70%;
+}
